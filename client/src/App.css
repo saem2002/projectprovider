@@ -1,0 +1,148 @@
+
+
+.image{
+  height: 40px;
+  margin-right: 10px;
+}
+.register-section{
+ height: 450px;
+ width: 750px;
+ border-style:solid;
+ border-color:whitesmoke;
+ border-bottom-width:7px ;
+ border-top-width:7px ;
+ border-radius: 30px;
+ display: flex;
+ float: left;
+ margin-top: 3%;
+ margin-left: 22%;
+ padding-left: 30px;
+ box-shadow: 10px 10px 5px grey;
+}
+.login-section{
+  height: 450px;
+ width: 750px;
+ border-style:solid;
+ border-color:whitesmoke;
+ border-bottom-width:7px ;
+ border-top-width:7px ;
+ border-radius: 30px;
+ display: flex;
+ float: left;
+ margin-top: 3%;
+ margin-left: 22%;
+ padding-left: 30px;
+ background-image: url(../src/images/login.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 10px 10px 5px grey;
+  
+}
+.login-form{
+  text-align: center;
+  margin-left: 28%;
+  margin-top: 10%;
+  
+ 
+}
+#userlogo{
+  height: 80px;
+  width: 80px;
+}
+#size{
+  width: 250px;
+  border-radius: 10px;
+}
+#register{
+  margin-bottom: 20px;
+}
+#submit-btn{
+  width: 250px;
+  border-radius: 12px;
+  background:linear-gradient(grey,white);
+}
+.register-form{
+  margin-top: 50px;
+
+}
+.h-section{
+  
+  width: 100%;
+  border-style: solid;
+  border-color:black;
+}
+.top-section{
+  height: 340px;
+  
+  background-color:rgb(218, 218, 218);
+  padding: 10px;
+}
+.mySlides{
+  height: 280px;
+  width: 25%;
+  margin-left: 3%;
+  margin-right: 5%;
+  border-radius: 48%;
+}
+.mySlides:hover{
+  border-style: solid;
+  border-width: 5px;
+  border-color: white;
+  cursor: pointer;
+}
+.para{
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+}
+.headers{
+  padding-inline-start: 4.8%;
+  padding-inline-end: 9%;
+}
+.headers:hover{
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px cyan;
+}
+.main-section{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 5%;
+}
+.first-div{
+  display: flex;
+  flex-direction: column;
+  text-shadow: 1px 1px 2px;
+ 
+}
+
+#addlogo{
+  height: 90px;
+  width: 20%;
+  margin-left: 40%;
+  cursor: pointer;
+  
+}
+#project-details{
+  height: auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 5%;
+}
+#level{
+  border-radius: 10px;
+}
+.projects{
+  margin-bottom: 2% ;
+}
+#projectdata{
+  height: 300px;
+  width: 300px;
+  border-style: solid;
+  border-color: brown;
+}
+
+@media only screen and (max-width: 970px) {
+  
+}
