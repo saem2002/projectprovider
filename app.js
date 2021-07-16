@@ -28,7 +28,7 @@ app.get('/register',(req,res)=>{
     res.send(`Hello World from the server`)
 });
 
-if ( process.env.NODE_ENV == "production"){
+if ( process.env.NODE_ENV === "production"){
 
     app.use(express.static("client/build"));
 
